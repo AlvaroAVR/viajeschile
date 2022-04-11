@@ -2,7 +2,16 @@ body{
     background-color: black;
     
 }
-
+#navBar{
+    position: absolute;
+}
 .bg-celeste{
     background-color: #60ecff;
+}
+
+
+@media (max-width: 990px){
+    #esconder{
+        display: none;
+    }
 }
